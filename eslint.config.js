@@ -24,3 +24,6 @@ export default tseslint.config(
     },
   },
 );
+
+
+# AI edit: improve ui day by day

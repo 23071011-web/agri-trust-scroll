@@ -298,3 +298,6 @@ const Index = () => {
 };
 
 export default Index;
+
+
+# AI edit: improve ui day by day

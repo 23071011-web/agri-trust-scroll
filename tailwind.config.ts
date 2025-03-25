@@ -122,3 +122,6 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+
+# AI edit: improve ui day by day

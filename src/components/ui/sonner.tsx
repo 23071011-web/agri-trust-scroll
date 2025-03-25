@@ -25,3 +25,6 @@ const Toaster = ({ ...props }: ToasterProps) => {
 };
 
 export { Toaster, toast };
+
+
+# AI edit: improve ui day by day

@@ -22,3 +22,6 @@ const NotFound = () => {
 };
 
 export default NotFound;
+
+
+# AI edit: improve ui day by day

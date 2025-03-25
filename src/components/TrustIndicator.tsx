@@ -82,3 +82,5 @@ const TrustIndicator = ({ score, label = "Trust Score", className = "" }: TrustI
 };
 
 export default TrustIndicator;
+
+# AI edit: improve ui day by day

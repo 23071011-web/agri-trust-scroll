@@ -27,3 +27,6 @@ function Badge({ className, variant, ...props }: BadgeProps) {
 }
 
 export { Badge, badgeVariants };
+
+
+# AI edit: improve ui day by day

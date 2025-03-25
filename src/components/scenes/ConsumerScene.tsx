@@ -247,3 +247,5 @@ const ConsumerScene = ({ position }: ConsumerSceneProps) => {
 };
 
 export default ConsumerScene;
+
+# AI edit: improve ui day by day

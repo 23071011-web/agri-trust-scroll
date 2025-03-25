@@ -233,3 +233,5 @@ const MarketScene = ({ position }: MarketSceneProps) => {
 };
 
 export default MarketScene;
+
+# AI edit: improve ui day by day

@@ -178,3 +178,5 @@ const FarmScene = ({ position }: FarmSceneProps) => {
 };
 
 export default FarmScene;
+
+# AI edit: improve ui day by day

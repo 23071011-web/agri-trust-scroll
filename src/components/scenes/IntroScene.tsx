@@ -109,3 +109,5 @@ const IntroScene = ({ position }: IntroSceneProps) => {
 };
 
 export default IntroScene;
+
+# AI edit: improve ui day by day
