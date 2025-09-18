@@ -2,95 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* AgriTrust - Premium 3D Farm-to-Fork Experience Design System
+All colors MUST be HSL for proper theming.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
+    /* Core Dark Theme - Deep Space Background */
+    --background: 225 15% 8%;
     --foreground: 210 40% 98%;
+    --surface: 225 15% 12%;
+    --surface-glass: 225 15% 12% / 0.3;
 
-    --card: 222.2 84% 4.9%;
+    /* AgriTrust Brand Colors */
+    --agri-green: 142 76% 36%;
+    --agri-green-glow: 142 76% 50%;
+    --agri-gold: 45 93% 58%;
+    --agri-gold-glow: 45 93% 70%;
+    
+    /* Blockchain Tech Colors */
+    --cyber-cyan: 180 100% 70%;
+    --cyber-cyan-glow: 180 100% 80%;
+    --tech-blue: 217 91% 60%;
+    --tech-purple: 262 83% 58%;
+    
+    /* Trust & Security */
+    --trust-green: 120 60% 50%;
+    --warning-amber: 38 92% 50%;
+    --danger-red: 0 84% 60%;
+
+    /* Glassmorphism & Effects */
+    --glass-bg: 225 15% 15% / 0.1;
+    --glass-border: 210 40% 98% / 0.1;
+    --glass-shadow: 225 15% 0% / 0.3;
+    --neon-glow: 0 0 20px;
+    
+    /* Component Tokens */
+    --card: var(--surface);
     --card-foreground: 210 40% 98%;
+    --card-glass: var(--surface-glass);
 
-    --popover: 222.2 84% 4.9%;
+    --popover: var(--surface);
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: var(--agri-green);
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: var(--agri-green-glow);
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: var(--tech-blue);
     --secondary-foreground: 210 40% 98%;
+    --secondary-glow: 217 91% 70%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --accent: var(--cyber-cyan);
+    --accent-foreground: 225 15% 8%;
+    --accent-glow: var(--cyber-cyan-glow);
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --muted: 225 15% 20%;
+    --muted-foreground: 215 25% 70%;
 
-    --destructive: 0 62.8% 30.6%;
+    --border: 225 15% 25%;
+    --input: var(--surface);
+    --ring: var(--agri-green);
+
+    --destructive: var(--danger-red);
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --radius: 1rem;
+    
+    /* Gradients & Effects */
+    --gradient-agri: linear-gradient(135deg, hsl(var(--agri-green)), hsl(var(--agri-gold)));
+    --gradient-cyber: linear-gradient(135deg, hsl(var(--cyber-cyan)), hsl(var(--tech-blue)));
+    --gradient-glass: linear-gradient(135deg, hsl(var(--glass-bg)), hsl(225 15% 18% / 0.1));
+    --particle-glow: drop-shadow(0 0 10px hsl(var(--accent))) drop-shadow(0 0 20px hsl(var(--accent) / 0.5));
+    --hologram-shadow: 0 8px 32px hsl(var(--accent) / 0.3), inset 0 1px 0 hsl(210 40% 98% / 0.1);
   }
 }
 
@@ -100,6 +84,119 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-x-hidden;
+    background: radial-gradient(ellipse at top, hsl(225 15% 12%) 0%, hsl(225 15% 8%) 100%);
   }
+  
+  /* Smooth scrolling for story navigation */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Components */
+  .glass-panel {
+    @apply backdrop-blur-xl border border-white/10 bg-white/5 shadow-xl;
+    box-shadow: var(--hologram-shadow);
+  }
+  
+  .glass-card {
+    @apply glass-panel rounded-2xl p-6;
+  }
+  
+  .hologram-panel {
+    @apply glass-panel rounded-lg p-4 relative overflow-hidden;
+    background: linear-gradient(135deg, hsl(var(--glass-bg)), hsl(225 15% 18% / 0.1));
+  }
+  
+  .hologram-panel::before {
+    content: '';
+    @apply absolute inset-0 rounded-lg;
+    background: linear-gradient(45deg, transparent 30%, hsl(var(--accent) / 0.1) 50%, transparent 70%);
+    animation: hologram-scan 3s linear infinite;
+  }
+  
+  /* Neon Glow Effects */
+  .neon-glow {
+    filter: drop-shadow(0 0 10px hsl(var(--primary))) drop-shadow(0 0 20px hsl(var(--primary) / 0.5));
+  }
+  
+  .cyber-glow {
+    filter: drop-shadow(0 0 10px hsl(var(--accent))) drop-shadow(0 0 20px hsl(var(--accent) / 0.5));
+  }
+  
+  .agri-glow {
+    filter: drop-shadow(0 0 10px hsl(var(--agri-gold))) drop-shadow(0 0 20px hsl(var(--agri-gold) / 0.5));
+  }
+  
+  /* Particle Systems */
+  .particles-bg {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--accent) / 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 75% 75%, hsl(var(--primary) / 0.1) 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    animation: float-particles 20s linear infinite;
+  }
+  
+  /* Trust Score Indicators */
+  .trust-indicator {
+    @apply flex items-center gap-2 glass-panel px-3 py-2 rounded-full;
+  }
+  
+  .trust-high { @apply border-green-400/30 bg-green-400/10 text-green-300; }
+  .trust-medium { @apply border-amber-400/30 bg-amber-400/10 text-amber-300; }
+  .trust-low { @apply border-red-400/30 bg-red-400/10 text-red-300; }
+}
+
+@layer utilities {
+  /* 3D Scene Utilities */
+  .scene-container {
+    @apply w-full h-screen relative overflow-hidden;
+  }
+  
+  .scroll-section {
+    @apply w-full min-h-screen relative;
+  }
+  
+  /* Animation Utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+  }
+  
+  .animate-hologram {
+    animation: hologram-flicker 0.5s linear infinite alternate;
+  }
+}
+
+/* Keyframe Animations */
+@keyframes hologram-scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes float-particles {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(50px, -50px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+  0% { filter: brightness(1) drop-shadow(0 0 5px currentColor); }
+  100% { filter: brightness(1.3) drop-shadow(0 0 20px currentColor); }
+}
+
+@keyframes hologram-flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
 }
