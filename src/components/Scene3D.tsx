@@ -159,3 +159,6 @@ export default Scene3D;
 
 
 # AI edit: cghanged the ui files and added new coll feature
+
+
+# AI edit: update ui and theme color
