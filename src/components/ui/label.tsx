@@ -21,3 +21,6 @@ export { Label };
 
 
 # AI edit: cghanged the ui files and added new coll feature
+
+
+# AI edit: update ui and theme color
