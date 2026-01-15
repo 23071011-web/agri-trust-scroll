@@ -76,3 +76,6 @@ export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableC
 
 
 # AI edit: cghanged the ui files and added new coll feature
+
+
+# AI edit: update ui and theme color
