@@ -7,3 +7,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 # AI edit: improve ui day by day
+
+
+# AI edit: cghanged the ui files and added new coll feature

@@ -111,3 +111,6 @@ const IntroScene = ({ position }: IntroSceneProps) => {
 export default IntroScene;
 
 # AI edit: improve ui day by day
+
+
+# AI edit: cghanged the ui files and added new coll feature

@@ -235,3 +235,6 @@ const MarketScene = ({ position }: MarketSceneProps) => {
 export default MarketScene;
 
 # AI edit: improve ui day by day
+
+
+# AI edit: cghanged the ui files and added new coll feature

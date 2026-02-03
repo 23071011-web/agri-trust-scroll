@@ -59,3 +59,6 @@ const ParticleField = ({ count = 50, className = '' }: ParticleFieldProps) => {
 export default ParticleField;
 
 # AI edit: improve ui day by day
+
+
+# AI edit: cghanged the ui files and added new coll feature
