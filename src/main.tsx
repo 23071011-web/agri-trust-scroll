@@ -12,3 +12,6 @@ createRoot(document.getElementById("root")!).render(<App />);
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

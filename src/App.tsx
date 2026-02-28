@@ -34,3 +34,6 @@ export default App;
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

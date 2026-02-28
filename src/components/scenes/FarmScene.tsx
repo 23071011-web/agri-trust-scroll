@@ -186,3 +186,6 @@ export default FarmScene;
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

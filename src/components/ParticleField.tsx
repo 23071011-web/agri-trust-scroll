@@ -65,3 +65,6 @@ export default ParticleField;
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs
