@@ -50,3 +50,6 @@ export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

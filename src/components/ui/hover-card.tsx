@@ -34,3 +34,6 @@ export { HoverCard, HoverCardTrigger, HoverCardContent };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

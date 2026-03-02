@@ -68,3 +68,6 @@ export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

@@ -59,3 +59,6 @@ export { Accordion, AccordionItem, AccordionTrigger, AccordionContent };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

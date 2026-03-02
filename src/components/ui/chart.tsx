@@ -310,3 +310,6 @@ export { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLe
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

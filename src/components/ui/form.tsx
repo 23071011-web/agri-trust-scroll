@@ -136,3 +136,6 @@ export { useFormField, Form, FormItem, FormLabel, FormControl, FormDescription, 
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

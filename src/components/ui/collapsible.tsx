@@ -16,3 +16,6 @@ export { Collapsible, CollapsibleTrigger, CollapsibleContent };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

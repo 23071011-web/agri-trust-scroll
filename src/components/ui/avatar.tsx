@@ -45,3 +45,6 @@ export { Avatar, AvatarImage, AvatarFallback };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs
