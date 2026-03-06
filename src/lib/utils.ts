@@ -16,3 +16,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 # AI edit: fix the bugs
+
+
+# AI edit: fix the bugs
