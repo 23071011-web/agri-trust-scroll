@@ -44,3 +44,6 @@ export { ResizablePanelGroup, ResizablePanel, ResizableHandle };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

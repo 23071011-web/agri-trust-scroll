@@ -35,3 +35,6 @@ export { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

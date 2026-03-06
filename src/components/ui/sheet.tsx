@@ -114,3 +114,6 @@ export {
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

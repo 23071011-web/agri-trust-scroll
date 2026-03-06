@@ -307,3 +307,6 @@ export default Index;
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

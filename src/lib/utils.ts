@@ -13,3 +13,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

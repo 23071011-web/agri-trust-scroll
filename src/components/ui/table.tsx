@@ -79,3 +79,6 @@ export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableC
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs

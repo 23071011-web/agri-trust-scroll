@@ -60,3 +60,6 @@ export { Tabs, TabsList, TabsTrigger, TabsContent };
 
 
 # AI edit: update ui and theme color
+
+
+# AI edit: fix the bugs
